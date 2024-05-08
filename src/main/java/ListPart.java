@@ -12,12 +12,12 @@ public class ListPart {
         while (scanner.hasNextInt()) {
             numbers.add(scanner.nextInt());
         }
-        partitionList(numbers, X);
+        partList(numbers, X);
 
-        System.out.println("Переставленный список: " + numbers);
+        System.out.println("Spisok: " + numbers);
     }
 
-    public static void partitionList(List<Integer> numbers, int X) {
+    public static void partList(List<Integer> numbers, int X) {
         int i = 0;
         int j = numbers.size() - 1;
 
