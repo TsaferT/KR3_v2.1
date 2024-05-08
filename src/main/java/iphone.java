@@ -7,7 +7,7 @@ public class iphone {
         contacts = new HashMap<>();
     }
     public void displayPhoneBook() {
-        System.out.println("Телефонная книга:");
+        System.out.println("iphone book:");
         for (Map.Entry<String, List<String>> entry : contacts.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
@@ -35,6 +35,6 @@ public class iphone {
 
         String name = "Иван";
         List<String> ivanPhoneNumbers = iphone.getPhoneNumbers(name);
-        System.out.println(name + " телефоны: " + ivanPhoneNumbers);
+        System.out.println(name + " number: " + ivanPhoneNumbers);
     }
 }
